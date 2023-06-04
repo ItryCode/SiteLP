@@ -1,0 +1,217 @@
+body{
+    display:flex;
+    
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+
+img{
+    border-radius: 9px;
+}
+
+/* Start of the header section */
+.logo-text{
+    font-size: 24px;
+    flex:1;
+    align-self: flex-start;
+    color: green;
+}
+.header{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    margin:15px;
+    background-color: #1F2937;
+}
+
+ul{
+    display:flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color:green;
+    gap:20px;
+    flex:1;
+    list-style: none;
+}
+
+li{
+    colour:white;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf9;
+}
+
+
+/* End of header section */
+
+
+/* Start of  headline section */
+
+.content{
+    display:flex;
+    padding:20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:30px;
+    margin-left:80px;
+    margin-bottom:80px;
+    margin-right:80px;
+
+
+    
+}
+
+.placeholder .pimage{
+    width:700px;
+    
+}
+
+button{
+    
+    background-color: #3882F6;
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 7px;
+    border-style: none;
+}
+
+.subcontent{
+   flex:1;
+   
+}
+
+
+.main-content{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+/* End of  headline section */
+
+/* Bike cards section */
+.bikes{
+    width:350px;
+    height:250px;
+    border: 2px solid black;
+}
+.cards{
+    display:flex;
+    justify-content: space-between;
+    gap:18px;
+    flex-wrap: wrap;
+}
+
+.card-text{
+    text-align: center;
+    color:black !important
+}
+/* end of bike section */
+
+
+/*Testimonials */
+.testimonial{
+    display:flex;
+    flex-direction: column;
+    
+    background-color: red;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding:0 400px;
+    background-color: #E5E7EB;
+    
+}
+
+.t-text{
+    display:flex;
+    font-size:30px;
+    font-weight: bold;
+    flex:1;
+    flex-wrap: nowrap;
+    
+}
+
+.signedby{
+    font-size:25px;
+    align-items: flex-end;
+}
+
+ /*end of testimonial section */
+
+/*Start of the CTA Section */
+.cta{
+    display:flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 -10px;
+    
+}
+
+ .cta-content{
+    display:flex;
+    background-color: #3882F6;
+    align-items: center;
+    margin: 20px;
+    padding:0 100px;
+    gap:600px;
+    border-radius: 10px;
+    
+}
+
+.card-text{
+    flex-direction: column;
+    align-items: flex-start;
+    color:white
+} 
+
+.cta-btn{
+    
+    border: 2px solid white;
+  background-color: #3882F6;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:7px;
+  transition: all 0.2s;
+}
+
+.cta-btn:hover{
+color:#000000;
+    background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+    .cta-button{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+
+
+*/End of CTA section */
+
+
+
+
+
+
+ /*Start of footer section */
+.footer{
+    display:flex;
+    justify-content: center;
+    color:white;
+    padding:10px;
+
+    
+}
+/*End of footer section */
