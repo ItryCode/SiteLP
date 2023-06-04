@@ -15,7 +15,8 @@ img{
     font-size: 24px;
     flex:1;
     align-self: flex-start;
-    color: green;
+    color: orangered;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .header{
     display: flex;
@@ -29,7 +30,7 @@ ul{
     display:flex;
     justify-content: space-around;
     font-size: 18px;
-    color:green;
+    color:whitesmoke;
     gap:20px;
     flex:1;
     list-style: none;
